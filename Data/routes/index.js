@@ -5,6 +5,6 @@ const indexController = require('../controllers/index');
 
 
 //Route to the controllers
-router.get('/', indexController.getIndex);
+router.get('/api', indexController.getIndex);
 
 module.exports = router
